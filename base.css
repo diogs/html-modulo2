@@ -1,38 +1,46 @@
 html, body {
     margin: 0;
-}
-body {
+  }
+  body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
-}
-
-.wrapper {
+    font-family: Tahoma, sans-serif;
+  }
+  
+  .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
     background-color: aquamarine;
-}
-.main {
+  }
+  .main {
     display: flex;
     flex-flow: column;
     width: 85%;
-}
-.menu {
+  }
+  .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(5, 108, 108);
     padding: 10px 20px 0px;
-}
-.header {
+  }
+  .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
-}
-.content {
+  }
+  .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
-}
-.footer {
-    background-color: rgb(99, 56, 240);
+  }
+  .footer {
+    background-color: rgb(5, 108, 108);
     min-height: 150px;
-}
+    color: white;
+  }
+  a {
+    font-family: Tahoma, sans-serif;
+    color: white;
+  }
+   
+  
